@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Advanced Topics"
+      name = "Advanced Topics">
+      <FileRef
+         location = "group:SomeAny.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Design Patterns"
+      name = "Design Patterns">
+      <FileRef
+         location = "group:CreationalDesignPatterns.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Fundamentals"
+      name = "Fundamentals">
+      <FileRef
+         location = "group:ControlFlow.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Extensions.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Optionals.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Properties.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Generics.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Structures&amp;Classes.playground">
+      </FileRef>
+      <FileRef
+         location = "group:CollectionTypes.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Functions.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Protocols.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Closures.playground">
+      </FileRef>
+   </Group>
+</Workspace>
