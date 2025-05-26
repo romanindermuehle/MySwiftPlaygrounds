@@ -64,4 +64,17 @@ print(archer2.vacationRemaining)
 
 // MARK: What is meant by "value type"?
 
+struct Cat {
+    var name: String
+    var age: Int
+}
+
+var catStruct = Cat(name: "Timo", age: 4)
+var catStructCopy = catStruct
+
+// Value type means all struct instances are a unique copy.
+catStruct.age = 2
+
+catStructCopy.age
+
 //: [Next](@next)

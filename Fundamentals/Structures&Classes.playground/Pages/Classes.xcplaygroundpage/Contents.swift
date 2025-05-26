@@ -125,5 +125,22 @@ pet.name = "Taylor"
 
 // MARK: What is meant by "reference type"?
 
+class Cat {
+    var name: String
+    var age: Int
+    
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
+}
+
+let catClass = Cat(name: "Timo", age: 4)
+let catClassCopy = catClass
+
+// Reference type means all class instances share the same data.
+catClass.age = 2
+
+catClassCopy.age
 
 //: [Next](@next)
