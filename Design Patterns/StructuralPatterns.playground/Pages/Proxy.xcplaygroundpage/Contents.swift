@@ -18,7 +18,7 @@ class RealImage: Image {
     }
     
     private func loadFromDisk() {
-        print("Loading image: \(filname)")
+        print("Loading image: \(filename)")
     }
     
     func display() {
@@ -40,7 +40,7 @@ class ImageProxy: Image {
             realImage = RealImage(filename: filename)
         }
         
-        realImage.display()
+        realImage?.display()
     }
 }
 
