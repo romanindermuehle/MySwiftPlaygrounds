@@ -7,12 +7,18 @@
       <FileRef
          location = "group:SomeAny.playground">
       </FileRef>
+      <FileRef
+         location = "group:Concurrency.playground">
+      </FileRef>
    </Group>
    <Group
       location = "group:Design Patterns"
       name = "Design Patterns">
       <FileRef
-         location = "group:CreationalDesignPatterns.playground">
+         location = "group:CreationalPatterns.playground">
+      </FileRef>
+      <FileRef
+         location = "group:StructuralPatterns.playground">
       </FileRef>
    </Group>
    <Group
@@ -47,6 +53,12 @@
       </FileRef>
       <FileRef
          location = "group:Closures.playground">
+      </FileRef>
+      <FileRef
+         location = "group:StrongReference.playground">
+      </FileRef>
+      <FileRef
+         location = "group:AccessControl.playground">
       </FileRef>
    </Group>
 </Workspace>
