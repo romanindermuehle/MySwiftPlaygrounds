@@ -20,6 +20,12 @@
       <FileRef
          location = "group:StructuralPatterns.playground">
       </FileRef>
+      <FileRef
+         location = "group:BehavioralPatterns.playground">
+      </FileRef>
+      <FileRef
+         location = "group:DesignPrinciples.playground">
+      </FileRef>
    </Group>
    <Group
       location = "group:Fundamentals"
